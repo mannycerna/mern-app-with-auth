@@ -12,8 +12,8 @@ function BlogItem({ blog }) {
       <p>{blog.author}</p>
       <p>{blog.year}</p>
       <p>{blog.categories}</p>
-      <button onClick={() => dispatch(deleteBlog(blog._id))} className='close'>
-        X-Delete
+      <button onClick={() => dispatch(deleteBlog(blog._id))} className= 'close'>
+        Delete
       </button>
     </div>
   )
